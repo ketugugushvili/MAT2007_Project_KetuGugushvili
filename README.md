@@ -105,14 +105,14 @@ Volatility is estimated separately for:
 The relative change in estimated volatility is:
 
 ```math
-\(\Delta s(\%)=\frac{s_2-s_1}{s_1}\times 100\)
+\(\Delta s(\text{\%}) = \frac{s_2 - s_1}{s_1} \times 100\)
 ```
 
 where $s_1$ and $s_2$ are the estimates for the first and second periods. A positive value indicates higher estimated volatility in the later period; a negative value indicates lower estimated volatility.
 
 ### 6. Decadal subsampling
 
-The 120 annual changes are divided into **12 non-overlapping subsamples of 10 years**: 1901–1910, 1911–1920, ..., 2011–2020. For every metal and subsample, the script calculates sample standard deviation and its approximate standard error. This produces **132 metal–decade results** (11 metals × 12 periods).
+The 120 annual changes are divided into **12 non-overlapping subsamples of 10 years**: 1901–1910, 1911–1920, ..., 2011–2020. For every metal and subsample, the script calculates the sample standard deviation and its approximate standard error. This produces **132 metal–decade results** (11 metals × 12 periods).
 
 The decadal plot focuses on **zinc, nickel, iron ore and bauxite** to show contrasting patterns while keeping the visualization readable. Each subsample contains only 10 observations, so individual estimates are relatively uncertain.
 
@@ -171,23 +171,23 @@ The following figures are produced automatically when the program runs:
 
 **Real price-index history**
 
-![Real metal commodity price indices](metal_price_history.png)
+<img src="Plots/metal_price_history.png" alt="Description of image" width="600">
 
 **Overall volatility and approximate uncertainty**
 
-![Overall volatility of metal price changes](metal_volatility_with_uncertainty.png)
+<img src="Plots/metal_volatility_with_uncertainty.png" alt="Description of image" width="600">
 
 **Historical period comparison**
 
-![Volatility comparison between 1901–1959 and 1960–2020](volatility_period_comparison_with_uncertainty.png)
+<img src="Plots/volatility_period_comparison_with_uncertainty.png" alt="Description of image" width="600">
 
 **Decadal subsampling**
 
-![Volatility across 10-year subsamples](decadal_volatility.png)
+<img src="Plots/decadal_volatility.png" alt="Description of image" width="600">
 
 **Distribution of annual changes for the highest-volatility metal**
 
-![Histogram of annual percentage changes](most_volatile_histogram.png)
+<img src="Plots/most_volatile_histogram.png" alt="Description of image" width="600">
 
 
 ## Limitations
