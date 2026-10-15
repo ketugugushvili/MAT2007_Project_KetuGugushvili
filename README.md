@@ -105,7 +105,7 @@ Volatility is estimated separately for:
 The relative change in estimated volatility is:
 
 $$
-\Delta s(\%)=\frac{s_2-s_1}{s_1}\times100,
+\Delta s(\%)=\frac{s_2-s_1}{s_1}\times100
 $$
 
 where $s_1$ and $s_2$ are the estimates for the first and second periods. A positive value indicates higher estimated volatility in the later period; a negative value indicates lower estimated volatility.
