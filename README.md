@@ -199,6 +199,19 @@ The image links will render on GitHub if the PNG files are uploaded alongside th
 4. **Historical interpretation:** The analysis documents changes in volatility but does not identify causal explanations for them.
 5. **Annual frequency:** The dataset cannot capture price movements occurring within individual years.
 
+
+## Project Report
+
+The full academic report, *Statistical Volatility of Real
+Metal Commodity Prices: A Long-Run Sub-sampling Analysis,
+1901–2020*, is available on Overleaf.
+
+[View the Project Report on Overleaf](PASTE_YOUR_OVERLEAF_LINK_HERE)
+
+The report presents the research question, dataset,
+statistical methodology, key findings, and conclusions.
+
+
 ## References
 
 1. Jacks, D. S. (2019). *From Boom to Bust: A Typology of Real Commodity Prices in the Long Run*. **Cliometrica, 13**, 201–220. https://doi.org/10.1007/s11698-018-0173-5
