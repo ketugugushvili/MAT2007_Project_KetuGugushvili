@@ -105,7 +105,7 @@ Volatility is estimated separately for:
 The relative change in estimated volatility is:
 
 ```math
-\(\Delta s(\text{\%}) = \frac{s_2 - s_1}{s_1} \times 100\)
+\Delta s(\text{\%}) = \frac{s_2 - s_1}{s_1} \times 100
 ```
 
 where $s_1$ and $s_2$ are the estimates for the first and second periods. A positive value indicates higher estimated volatility in the later period; a negative value indicates lower estimated volatility.
@@ -171,23 +171,23 @@ The following figures are produced automatically when the program runs:
 
 **Real price-index history**
 
-<img src="Plots/metal_price_history.png" alt="Description of image" width="600">
+<img src="Figures/metal_price_history.png" alt="Description of image" width="600">
 
 **Overall volatility and approximate uncertainty**
 
-<img src="Plots/metal_volatility_with_uncertainty.png" alt="Description of image" width="600">
+<img src="Figures/metal_volatility_with_uncertainty.png" alt="Description of image" width="600">
 
 **Historical period comparison**
 
-<img src="Plots/volatility_period_comparison_with_uncertainty.png" alt="Description of image" width="600">
+<img src="Figures/volatility_period_comparison_with_uncertainty.png" alt="Description of image" width="600">
 
 **Decadal subsampling**
 
-<img src="Plots/decadal_volatility.png" alt="Description of image" width="600">
+<img src="Figures/decadal_volatility.png" alt="Description of image" width="600">
 
 **Distribution of annual changes for the highest-volatility metal**
 
-<img src="Plots/most_volatile_histogram.png" alt="Description of image" width="600">
+<img src="Figures/most_volatile_histogram.png" alt="Description of image" width="600">
 
 
 ## Limitations
